@@ -3,12 +3,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
-.slider{
-    background-image: url(../img/slider.jpg);
-    background-color: gray;
-    background-size: cover;
-    min-height: 1024px;
-}
+
 .navbar{
     font-size: .7rem;
     margin-top: 1.2em;
@@ -57,12 +52,17 @@ font-family: 'Roboto', sans-serif;
 }
 .carousel-caption{
     font-family: 'Raleway', sans-serif;
-    bottom: 35%;
+    bottom: 30%;
 }
 .user-btn{
     background-color: rgb(250, 119, 119);  
     border: 1px solid #000;
-    color: #fff;
     font-size: 10px;
     padding: 9px 28px;
+}
+.slider{
+    background: url(../img/slider.jpg) no-repeat;
+    background-color: gray;
+    background-size: cover;
+    width: 100%;
 }
