@@ -1,68 +1,116 @@
-body{
-font-family: 'Raleway', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-.navbar{
+.navbar {
     font-size: .7rem;
     margin-top: 1.2em;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Raleway', sans-serif;
     font-size: 1.35rem
 }
-.logo{
+
+.logo {
     max-width: 30%;
 }
-.navbar-collapce, .show{
-     background: #343a40!important;
- }
- .nav-item{
-     padding-right: 7px;
- }
-.cart-img > img{
+
+.navbar-collapce,
+.show {
+    background: #343a40 !important;
+}
+
+.nav-item {
+    padding-right: 7px;
+}
+
+.cart-img>img {
     width: 14px;
 }
-.search-img > img{
+
+.search-img>img {
     width: 17px;
 }
 
-.carousel-indicators > li{
+.carousel-indicators>li {
     width: 0;
     height: 0;
     border: 5px solid white;
     border-radius: 50%;
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
     border: 5px solid black;
     box-shadow: gray 0 0 0 2px;
 }
-.carousel-control-prev-icon{
+
+.carousel-control-prev-icon {
     background: url(../img/sprite.png) no-repeat;
     background-position: 0 0;
     width: 41px;
-    height:73px;
+    height: 73px;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
     background: url(../img/sprite.png) no-repeat;
     background-position: -39px 0;
     width: 41px;
-    height:73px;
+    height: 73px;
 }
-.carousel-caption{
-    font-family: 'Raleway', sans-serif;
+
+.carousel-caption {
     bottom: 30%;
 }
-.user-btn{
-    background-color: rgb(250, 119, 119);  
-    border: 1px solid #000;
+
+.user-btn {
+    background-color: #998675;
+    border-bottom: 3px solid #736357;
     font-size: 10px;
     padding: 9px 28px;
 }
-.slider{
+
+.slider {
     background: url(../img/slider.jpg) no-repeat;
     background-color: gray;
     background-size: cover;
     width: 100%;
+}
+
+.dev-icon {
+    background: url(../img/web-dev-icon.png) no-repeat 100px 100px;
+    background-size: cover;
+    /* background-size: 50% auto; */
+    width: 50px;
+    height: auto;
+}
+
+.indicator {
+    box-sizing: content-box;
+    width: 40px;
+    height: 3px;
+    background-color: #f1eee9;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.secondary {
+    color: #6c757d;
+}
+
+.hovered:hover,
+.hovered:hover .fa {
+    opacity: 0.9;
+    color: #998675;
+}
+
+.hovered:hover .indicator {
+    background-color: #998675;
+}
+
+.gradient {
+    background: -o-linear-gradient(right, #211b19 #4e3427);
 }
